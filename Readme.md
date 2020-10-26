@@ -34,19 +34,3 @@ Minimum response length in bytes: 49100
 Percentage of Success: 100 
 Error codes for failures: [  ] 
 
-
-for my site any invalid url paths is resulting in the root url output
-
-shreya90@Shreyas-MacBook-Air cloudfare % main dP -u http://my-worker-1.shreyasdomain.workers.dev/somepath -p 3  
-
-Total number of times the url is requested for Profiling : 3 
-Maxinum time for requesting: 1062 
-Mininum time for requesting: 1015 
-Mean time for requesting: 1031 
-Maximum response length in bytes: 429899 
-Minimum response length in bytes: 429587 
-Percentage of Success: 100 
-Error codes for failures: [  ] 
-
-
-I am unsure why this is the case
